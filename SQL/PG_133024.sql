@@ -11,7 +11,7 @@
 --   1. 쿼리 작성 단계 
         -- 테이블 이름 확인
         -- FIRST_HALF 테이블 내 데이터 타입 확인
-        -- COUNT 함수를 사용하여 조회할 컬럼 수 조회
+        -- COUNT 함수를 사용하여 전체 컬럼 수 조회
         -- 문제에서 요구하는 FLAVOR 컬럼 조회
         -- ORDER BY를 이용해 TOTAL_ORDER을 내림차순으로 정렬
         -- 총 주문량이 같은 경우 SHIPMENT ID를 내림차순으로 정렬하기위해 조건을 추가하였다
@@ -27,4 +27,7 @@
 
 SELECT FLAVOR
 FROM FIRST_HALF
-ORDER BY TOTAL_ORDER DESC, SHIPMENT_ID ASC;
+ORDER BY TOTAL_ORDER DESC, SHIPMENT_ID ASC
+;
+
+-- NO SQL 추가 공부 예정
