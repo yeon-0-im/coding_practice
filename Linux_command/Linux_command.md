@@ -1,4 +1,4 @@
-# Linux Command Practice
+# Linux Command Study
 
 ## 1. 현재 작업 디렉토리 위치 확인 (`pwd`)
 ```bash
